@@ -1,0 +1,13 @@
+Cinebot LED Off/On Mamba F740 WiFi
+
+Resource:
+
+LED_STRIP: B03
+
+resource LED_STRIP none
+
+resource pinio 3 B03
+
+# Default pinio_box: pinio_box = 0,40,255,255
+
+set pinio_box = 0,40,41,255
