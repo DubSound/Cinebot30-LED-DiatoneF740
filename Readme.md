@@ -1,5 +1,5 @@
 # Cinebot30 w/ Diatone Mamba F740 Mk4 COB LED
-## _Because someone may need it..._
+## _Because someone might need it..._
 
 
 GEPRC recommends their own flight controller for this frame, but as it's quite difficult to get your hands on most stuff before they get snapped up, you have to make do with what you can get.
@@ -81,10 +81,10 @@ We now clear the pin from the LED_STRIP by using
 resource LED_STRIP none
 ```
 
-Now we want add BO3 to PINIO 3 and add it to the PINIO_BOX
+Now we want add B03 to PINIO 3 and add it to the PINIO_BOX
 
 ```
-resource pinio 3 BO3
+resource pinio 3 B03
 set pinio_box = 0,40,41,255
 ```
 
