@@ -90,7 +90,7 @@ Whilst the information for this is already available on the internet, I wanted t
 
 | Big Thanks To | 
 | ------ |
-| Painless360 | [plugins/dropbox/README.md][PlDb] |
-| Joshua Bardwell | [plugins/github/README.md][PlGh] |
+| Painless360 | 
+| Joshua Bardwell | 
 | NordFPV |
 
