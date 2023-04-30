@@ -18,12 +18,16 @@ The use of the LED pad on the FC just makes sense for what we're wanting to use 
 Diatone has included a preconfigured pinio setup for the target of this and many of their other Mk4 boards.
 They have configured this to allow you to control the VTX power. This function is often used by the community, so we will be editing PINIO 3.
 
+```
+0,40,255,255
+```
+
 ### Betaflight CLI
 
 Double check resource to make sure the LED_STRIP is still B03, if you're using another pad look for the corresponding PIN for that pad
 eg; **MOTOR 8 B04**, **SERIAL_RX 5 D02** etc.
 
-```sh
+```
 resource
 resource BEEPER 1 B02
 resource MOTOR 1 C08
