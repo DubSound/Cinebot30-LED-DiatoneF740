@@ -99,7 +99,10 @@ Whilst the information for this is already available on the internet, I wanted t
 
 | Big Thanks To | 
 | ------ |
-| Painless360 | 
-| Joshua Bardwell | 
-| NordFPV |
+| [Painless360] | 
+| [Joshua Bardwell] | 
+| [NordFPV] |
 
+   [Painless360]: <https://www.youtube.com/user/Painless360>
+   [Joshua Bardwell]: <https://www.youtube.com/@JoshuaBardwell>
+   [NordFPV]: <https://www.youtube.com/@NordFPV>
