@@ -6,17 +6,22 @@ GEPRC recommends their own flight controller for this frame, but as it's quite d
 
 The Cinebot30 Frame or CT-30 comes with an optional set of COB lights and if paired with the GEPRC FC, correct pad and their CLI dump, you're pretty much good to go. Other flight controllers will need a bit of tinkering but is generally straight forward.
 ### Setup used:
-- Diatone Mamba F740 Mk4 AIO
+- Diatone Mamba F740 Mk4 AIO -
 - Betaflight 4.3/4.4
+- LED Pad on Flight Controller
+- GEPRC COB LED Strip & BEC
+
+The use of the LED pad on the FC just makes sense for what we're wanting to use it for, but if you are already using the LED pad you can use any other free signal pad on the FC.
 
 ### Default PINIO
 
-Diatone has included a preconfigured pinio setup for the target of this board and many of their other Mk4 boards.
-They have configured this to allow you to control the VTX power we could just use this, however we will be leaving this as alone and will be using PINIO 3
+Diatone has included a preconfigured pinio setup for the target of this and many of their other Mk4 boards.
+They have configured this to allow you to control the VTX power. This function is often used by the community, so we will be editing PINIO 3.
 
 ### Betaflight CLI
 
-Double check resource to make sure the LED_STRIP is still B03
+Double check resource to make sure the LED_STRIP is still B03, if you're using another pad look for the corresponding PIN for that pad
+eg; **MOTOR 8 B04**, **SERIAL_RX 5 D02** etc.
 
 ```sh
 resource
