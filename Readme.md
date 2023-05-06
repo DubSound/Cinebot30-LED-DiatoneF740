@@ -1,10 +1,10 @@
-# Cinebot30 w/ Diatone Mamba F740 Mk4 COB LED
+# Cinebot30 w/ Diatone Mamba F740 Mk4 COB LED On/Off Switch
 ## _Because someone might need it..._
 
 
 GEPRC recommends their own flight controller for this frame, but as it's quite difficult to get your hands on most stuff before they get snapped up, you have to make do with what you can get.
 
-The Cinebot30 Frame or CT-30 comes with an optional set of COB lights and if paired with the GEPRC FC, correct pad and their CLI dump, you're pretty much good to go. Other flight controllers will need a bit of tinkering but is generally straight forward.
+The Cinebot30 frame or CT-30 comes with an optional set of COB lights. If it is paired with the GEPRC FC, the correct pad, and their CLI dump, you're pretty much good to go, and you will be able to choose an AUX switch in Betaflight. Other flight controllers will need a bit of tinkering, but it is generally straightforward.
 ### Setup used:
 - Diatone Mamba F740 Mk4 AIO -
 - Betaflight 4.3/4.4
